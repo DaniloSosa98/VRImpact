@@ -1,0 +1,66 @@
+{
+    "name": "XRActionMap",
+    "maps": [
+        {
+            "name": "Custom Game Actions",
+            "id": "1332ede4-365d-43fc-968f-75e0502d5e6c",
+            "actions": [
+                {
+                    "name": "Menu Press",
+                    "type": "Button",
+                    "id": "945ffaac-71ab-4b3c-b34f-30eb756c02f4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "298cf214-442e-4504-a717-092d3e8141ae",
+                    "path": "<XRController>{LeftHand}/gripPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Select",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4a2d7180-5246-4b12-95f3-043fa6f1e93e",
+                    "path": "*/{Menu}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "dba2f100-8c2f-412a-9ac6-9b7837f8e435",
+                    "path": "*/{MenuButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Menu Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b9474432-31b4-466f-86c3-5bf74813ae3c",
+                    "path": "<XRController>{LeftHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "UI Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
